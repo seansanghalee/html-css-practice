@@ -76,7 +76,7 @@ header div:last-child {
 .book-of-the-day__cover {
   width: 150px;
   height: 200px;
-  background-image: url("images/IMG_1672.png");
+  background-image: url("../images/IMG_1672.png");
   background-size: cover;
   border-radius: 15px;
 }
@@ -171,27 +171,27 @@ header div:last-child {
 }
 
 .top-adventures li:first-child .cover {
-  background-image: url("images/IMG_1673.png");
+  background-image: url("../images/IMG_1673.png");
   background-size: cover;
 }
 
 .top-adventures li:nth-child(2) .cover {
-  background-image: url("images/IMG_1674.png");
+  background-image: url("../images/IMG_1674.png");
   background-size: cover;
 }
 
 .top-adventures li:nth-child(3) .cover {
-  background-image: url("images/IMG_1675.png");
+  background-image: url("../images/IMG_1675.png");
   background-size: cover;
 }
 
 .top-adventures li:nth-child(4) .cover {
-  background-image: url("images/IMG_1676.png");
+  background-image: url("../images/IMG_1676.png");
   background-size: cover;
 }
 
 .top-adventures li:last-child .cover {
-  background-image: url("images/IMG_1677.png");
+  background-image: url("../images/IMG_1677.png");
   background-size: cover;
 }
 
@@ -212,7 +212,7 @@ header div:last-child {
 .popular-authors__cover {
   width: 150px;
   height: 200px;
-  background-image: url("images/IMG_1678.png");
+  background-image: url("../images/IMG_1678.png");
   background-size: cover;
   border-radius: 15px;
 }
