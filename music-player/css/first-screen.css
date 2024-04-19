@@ -9,7 +9,7 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-image: url("./images/IMG_1672.png");
+  background-image: url("../images/IMG_1672.png");
   background-size: cover;
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
   margin: 10px 0;
@@ -86,7 +86,7 @@
 }
 
 .songs li:first-child .songs__song__cover {
-  background-image: url("./images/IMG_1673.png");
+  background-image: url("../images/IMG_1673.png");
   background-size: cover;
 }
 
@@ -96,17 +96,17 @@
 }
 
 .songs li:nth-child(2) .songs__song__cover {
-  background-image: url("./images/IMG_1674.png");
+  background-image: url("../images/IMG_1674.png");
   background-size: cover;
 }
 
 .songs li:nth-child(3) .songs__song__cover {
-  background-image: url("./images/IMG_1675.png");
+  background-image: url("../images/IMG_1675.png");
   background-size: cover;
 }
 
 .songs li:last-child .songs__song__cover {
-  background-image: url("./images/IMG_1676.png");
+  background-image: url("../images/IMG_1676.png");
   background-size: cover;
 }
 

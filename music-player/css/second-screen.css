@@ -78,11 +78,11 @@
   align-items: center;
 }
 
-.current-song-player i:first-child {
+.current-song-player .fa-redo {
   color: rgba(0, 0, 0, 0.05);
 }
 
-.current-song-player i:last-child {
+.current-song-player .fa-random {
   color: rgba(0, 0, 0, 0.05);
 }
 
@@ -93,6 +93,6 @@
 }
 
 .current-song-player .fa-play {
-  color: red;
+  color: black;
   padding: 25px;
 }

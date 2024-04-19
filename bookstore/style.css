@@ -4,7 +4,8 @@
 
 body {
   width: 100vw;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* common */
@@ -75,7 +76,7 @@ header div:last-child {
 .book-of-the-day__cover {
   width: 150px;
   height: 200px;
-  background-image: url("./IMG_1672.png");
+  background-image: url("images/IMG_1672.png");
   background-size: cover;
   border-radius: 15px;
 }
@@ -104,7 +105,7 @@ header div:last-child {
 .book-of-the-day__text i {
   font-size: 16px;
   padding-bottom: 10px;
-  color: rgb(247, 208, 85)
+  color: rgb(247, 208, 85);
 }
 
 .book-of-the-day__genres {
@@ -153,11 +154,11 @@ header div:last-child {
   padding: 10px 30px;
 }
 
- .top-adventures ul {
-   display: flex;
-   margin-bottom: 20px;
-   overflow-x: scroll;
- }
+.top-adventures ul {
+  display: flex;
+  margin-bottom: 20px;
+  overflow-x: scroll;
+}
 
 .top-adventures .book {
   margin-right: 20px;
@@ -170,27 +171,27 @@ header div:last-child {
 }
 
 .top-adventures li:first-child .cover {
-  background-image: url("./IMG_1673.png");
+  background-image: url("images/IMG_1673.png");
   background-size: cover;
 }
 
 .top-adventures li:nth-child(2) .cover {
-  background-image: url("./IMG_1674.png");
+  background-image: url("images/IMG_1674.png");
   background-size: cover;
 }
 
 .top-adventures li:nth-child(3) .cover {
-  background-image: url("./IMG_1675.png");
+  background-image: url("images/IMG_1675.png");
   background-size: cover;
 }
 
 .top-adventures li:nth-child(4) .cover {
-  background-image: url("./IMG_1676.png");
+  background-image: url("images/IMG_1676.png");
   background-size: cover;
 }
 
 .top-adventures li:last-child .cover {
-  background-image: url("./IMG_1677.png");
+  background-image: url("images/IMG_1677.png");
   background-size: cover;
 }
 
@@ -200,7 +201,7 @@ header div:last-child {
   align-items: center;
   font-size: 10px;
   margin: 10px 0;
-  color: rgb(247, 208, 85)
+  color: rgb(247, 208, 85);
 }
 
 /* popular-authors  */
@@ -211,7 +212,7 @@ header div:last-child {
 .popular-authors__cover {
   width: 150px;
   height: 200px;
-  background-image: url("./IMG_1678.png");
+  background-image: url("images/IMG_1678.png");
   background-size: cover;
   border-radius: 15px;
 }
@@ -222,7 +223,7 @@ header div:last-child {
 
 .popular-authors__text {
   margin-left: 20px;
-  width: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
