@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* common */
+
+.section {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  background-color: rgb(247, 208, 85);
+  padding: 30px 20px 60px 20px;
+  font-size: 28px;
+}
+
+header div {
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+
+header div:first-child {
+  justify-content: flex-start;
+}
+
+header div:last-child {
+  justify-content: flex-end;
+}
+
+.header__title {
+  justify-content: center;
+}
+
+/* search-bar */
+
+.search-bar {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 60px;
+  width: 92%;
+  top: -30px;
+  left: 20px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0 30px;
+}
+
+/* .book-of-the-day */
+
+.book-of-the-day {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+
+.book-of-the-day__content {
+  display: flex;
+}
+
+.book-of-the-day__cover {
+  width: 150px;
+  height: 200px;
+  background-image: url("./IMG_1672.png");
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.book-of-the-day__info {
+  padding: 0 20px;
+}
+
+.book-of-the-day__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-of-the-day__text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.book-of-the-day__text span {
+  font-size: 18px;
+  opacity: 0.2;
+  padding-bottom: 10px;
+}
+
+.book-of-the-day__text i {
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: rgb(247, 208, 85)
+}
+
+.book-of-the-day__genres {
+  display: flex;
+}
+
+.book-of-the-day__genre {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.book-of-the-day__more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.book-of-the-day__bookmark {
+  background-color: rgb(247, 208, 85);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.book-of-the-day__buy {
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  padding: 20px 40px;
+  margin-left: 20px;
+}
+
+.book-of-the-day__buy span {
+  color: white;
+}
+
+/* top-adventures  */
+
+.top-adventures {
+  padding: 10px 30px;
+}
+
+ .top-adventures ul {
+   display: flex;
+   margin-bottom: 20px;
+   overflow-x: scroll;
+ }
+
+.top-adventures .book {
+  margin-right: 20px;
+}
+
+.top-adventures .cover {
+  width: 100px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.top-adventures li:first-child .cover {
+  background-image: url("./IMG_1673.png");
+  background-size: cover;
+}
+
+.top-adventures li:nth-child(2) .cover {
+  background-image: url("./IMG_1674.png");
+  background-size: cover;
+}
+
+.top-adventures li:nth-child(3) .cover {
+  background-image: url("./IMG_1675.png");
+  background-size: cover;
+}
+
+.top-adventures li:nth-child(4) .cover {
+  background-image: url("./IMG_1676.png");
+  background-size: cover;
+}
+
+.top-adventures li:last-child .cover {
+  background-image: url("./IMG_1677.png");
+  background-size: cover;
+}
+
+.top-adventures .stars {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 10px;
+  margin: 10px 0;
+  color: rgb(247, 208, 85)
+}
+
+/* popular-authors  */
+.popular-authors {
+  padding: 10px 30px;
+}
+
+.popular-authors__cover {
+  width: 150px;
+  height: 200px;
+  background-image: url("./IMG_1678.png");
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.popular-authors__info {
+  display: flex;
+}
+
+.popular-authors__text {
+  margin-left: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.popular-authors__text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.popular-authors__text p {
+  font-size: 18px;
+  opacity: 0.2;
+  padding-bottom: 10px;
+}
