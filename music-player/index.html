@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Music Player</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="screen">
+      <nav>
+        <i class="fas fa-arrow-left fa-lg"></i>
+        <i class="fas fa-search fa-lg"></i>
+      </nav>
+
+      <header class="profile">
+        <div class="profile__image"></div>
+        <div class="profile__info">
+          <h1>Cinnamoroll</h1>
+          <h2>Electronic, K-pop</h2>
+        </div>
+        <div class="profile__buttons">
+          <div class="profile__buttons__button">
+            <span>Shuffle</span>
+          </div>
+          <div class="profile__buttons__button">
+            <i class="fas fa-heart fa-lg"></i>
+            <span>777 777</span>
+          </div>
+        </div>
+      </header>
+
+      <ul class="songs">
+        <li>
+          <div class="songs__song">
+            <div class="songs__song__cover"></div>
+            <div class="songs__song__info">
+              <span>Cinnamoroll</span>
+              <span>CLOUDS</span>
+            </div>
+            <div class="songs__song__more">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="songs__song">
+            <div class="songs__song__cover"></div>
+            <div class="songs__song__info">
+              <span>Cinnamoroll</span>
+              <span>DAWG LIFE</span>
+            </div>
+            <div class="songs__song__more">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="songs__song">
+            <div class="songs__song__cover"></div>
+            <div class="songs__song__info">
+              <span>Cinnamoroll</span>
+              <span>WAY 2 CUTE</span>
+            </div>
+            <div class="songs__song__more">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="songs__song">
+            <div class="songs__song__cover"></div>
+            <div class="songs__song__info">
+              <span>Cinnamoroll</span>
+              <span>CHIFFON</span>
+            </div>
+            <div class="songs__song__more">
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <div class="player">
+        <div class="player__info">
+          <span>Cinnamoroll</span>
+          <span>SANRIO GANG</span>
+        </div>
+        <div class="player__control">
+          <i class="fas fa-step-backward"></i>
+          <i class="fas fa-pause"></i>
+          <i class="fas fa-step-forward"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen">
+      <nav>
+        <i class="fas fa-arrow-left fa-lg"></i>
+        <i class="fas fa-ellipsis-v fa-lg"></i>
+      </nav>
+
+      <div class="current-song">
+        <div class="current-song__cover"><img src="images/IMG_1674.png"</div>
+        <div class="current-song__info">
+          <h1>Dawg Life</h1>
+          <h2>Cinnamoroll</h2>
+        </div>
+      </div>
+
+      <div class="current-song-bar">
+        <div class="current-song-bar__time">
+          <span>1:56</span>
+          <span>2:21</span>
+        </div>
+        <div class="current-song-bar__scroll">
+          <div></div>
+          <i class="fas fa-circle"></i>
+          <div></div>
+        </div>
+      </div>
+
+      <div class="current-song-player">
+        <i class="fas fa-redo fa-lg"></i>
+        <i class="fas fa-step-backward fa-lg"></i>
+        <div>
+          <i class="fas fa-play fa-lg"></i>
+        </div>
+        <i class="fas fa-step-forward fa-lg"></i>
+        <i class="fas fa-random fa-lg"></i>
+      </div>
+    </div>
+  </body>
+</html>

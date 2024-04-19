@@ -1,0 +1,187 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.profile__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("./images/IMG_1672.png");
+  background-size: cover;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+  margin: 10px 0;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.profile__info h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.profile__info h2 {
+  margin: 10px 0;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.profile__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.profile__buttons__button {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.profile__buttons__button:first-child {
+  background-color: black;
+  justify-content: center;
+}
+
+.profile__buttons__button:first-child span {
+  color: white;
+}
+
+.profile__buttons__button:last-child {
+  justify-content: space-evenly;
+}
+
+.profile__buttons__button:last-child span {
+  opacity: 0.5;
+}
+
+.songs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 0 30px;
+  /* overflow-y: ; */
+}
+
+.songs__song {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  padding: 5px 0;
+}
+
+.songs li:first-child .songs__song__cover {
+  background-image: url("./images/IMG_1673.png");
+  background-size: cover;
+}
+
+.songs li:nth-child(2) .songs__song {
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.songs li:nth-child(2) .songs__song__cover {
+  background-image: url("./images/IMG_1674.png");
+  background-size: cover;
+}
+
+.songs li:nth-child(3) .songs__song__cover {
+  background-image: url("./images/IMG_1675.png");
+  background-size: cover;
+}
+
+.songs li:last-child .songs__song__cover {
+  background-image: url("./images/IMG_1676.png");
+  background-size: cover;
+}
+
+.songs__song__cover {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: red;
+  margin: 0 20px;
+}
+
+.songs__song__info {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1px 0;
+}
+
+.songs__song__info span:first-child {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.songs__song__info span:last-child {
+  font-weight: 600;
+}
+
+.songs__song__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.songs__song__more i {
+  opacity: 0.5;
+}
+
+.player {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: black;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.player__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.player__info span:first-child {
+  color: grey;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.player__info span:last-child {
+  color: white;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.player__control {
+  display: flex;
+}
+
+.player__control i {
+  color: white;
+  margin-left: 20px;
+}
